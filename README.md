@@ -33,7 +33,7 @@ func filter(image:UIImage) {
         }else if (confidence > 0.9) {
             // porn
         }else if (confidence > 0.5) {
-            // sexy picture, may porn
+            // sexy picture, may little porn
         }else {
             // sexy picture
         }
