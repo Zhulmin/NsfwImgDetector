@@ -7,118 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F0B8A147365A332E01E68D41B48E733 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303E2381CBF2A6D7201092495D6E587 /* ReplaceMe.swift */; };
-		30CA55D18B2D0E121FA232C367ED12FF /* NsfwImgDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B6FB30317E3EAED9BBE88AAA04FD94 /* NsfwImgDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38E9E7B137BE4D5EE3BAC7D261873056 /* NsfwImgDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E14C2435D33F24D1878AD2CB7361D /* NsfwImgDetector-dummy.m */; };
-		48162B22CE532B843D948BBF8DA0EA2D /* Pods-NsfwImgDetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B3838DFD2D9FB47075DEA8E278E139 /* Pods-NsfwImgDetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C65FC70BDC84FC0DEE690855B1DF964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		77139A77A719C5F1A0650E15D80A5215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8769278C827B8A00E0541A074BA94BDE /* Pods-NsfwImgDetector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056E71DCE61CF24BBDD3FF2A3903F91 /* Pods-NsfwImgDetector_Tests-dummy.m */; };
-		95573245A86174EFAA34F2B1F39EE2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C8670DF9E149AC1F29BD735D1B0B8BEA /* Pods-NsfwImgDetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740985BFA000459AFAA8FDD9EF092B02 /* Pods-NsfwImgDetector_Example-dummy.m */; };
-		EC1408AA3864AC0AE3F680A41CCCAC8E /* Pods-NsfwImgDetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9044570AC66BB845CC23819AE35F09 /* Pods-NsfwImgDetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1476A0EEB0FD1C1C034196CC1DBD82F5 /* NsfwImgDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F571FD9E391FAA69D9287C0730E0E2 /* NsfwImgDetector-dummy.m */; };
+		246CC270D14E8B87FE0D9EF237A53DDD /* Pods-NsfwImgDetector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056E71DCE61CF24BBDD3FF2A3903F91 /* Pods-NsfwImgDetector_Tests-dummy.m */; };
+		3A25D70597DFCD788F2C076B81B77DAA /* Pods-NsfwImgDetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9044570AC66BB845CC23819AE35F09 /* Pods-NsfwImgDetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5A678AF07C2F3E04479360A6CFA2A5 /* NsfwImgDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FBBF06E509A88728D9D96E60CFC734 /* NsfwImgDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970ED652BE4F1DF74A6CA8B12919E96E /* Pods-NsfwImgDetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740985BFA000459AFAA8FDD9EF092B02 /* Pods-NsfwImgDetector_Example-dummy.m */; };
+		9F35925C09A8AC11CDF30A81A1611FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B0D775CD1B147D081740BB199FFF30E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B3D4E0D6AD222E9F9BBA9ADC72D97B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CA1453E1628A0826BF5FBCDCA7C1AD2A /* NsfwImgDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950EDC8F313CE835697B6742449AAE8 /* NsfwImgDetector.swift */; };
+		DA60145F38674D3A581135EDA6A38BF2 /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 46A652F0A2353912A0EDB1B1605245F5 /* Nudity.mlmodel */; };
+		E50F8ADF57E58951E96CD777CF7000E6 /* Pods-NsfwImgDetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B3838DFD2D9FB47075DEA8E278E139 /* Pods-NsfwImgDetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA22F48C67E72CBAB0B4AA05FA2DE2CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9BA8FD48CC566A1C6D4CB6F66F83F27;
-			remoteInfo = "Pods-NsfwImgDetector_Example";
-		};
-		C4098084138475F8FDE1DEBFEF1A24CF /* PBXContainerItemProxy */ = {
+		B794E7445A397EC9E229DBC15CCBA73C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37C234209165F2D03F27C5252B948FBC;
 			remoteInfo = NsfwImgDetector;
 		};
+		C7582AB0015D02EBFAA39E30AE63A44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BA8FD48CC566A1C6D4CB6F66F83F27;
+			remoteInfo = "Pods-NsfwImgDetector_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		210067EBFC3511A9A1E5A22E01CC824A /* Pods-NsfwImgDetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NsfwImgDetector_Example.modulemap"; sourceTree = "<group>"; };
 		2603DF2B05C52213D42B8616CEC6449F /* Pods-NsfwImgDetector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NsfwImgDetector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29FBBF06E509A88728D9D96E60CFC734 /* NsfwImgDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NsfwImgDetector-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AB81D917A3EAEA7B48E653BD3A16A8E /* NsfwImgDetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NsfwImgDetector-Info.plist"; sourceTree = "<group>"; };
 		42D8A16010A8477274CAE304F6908058 /* Pods-NsfwImgDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NsfwImgDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44147DF0877757F0365C9CD48A277A40 /* Pods-NsfwImgDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NsfwImgDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		555E14C2435D33F24D1878AD2CB7361D /* NsfwImgDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NsfwImgDetector-dummy.m"; sourceTree = "<group>"; };
+		46A652F0A2353912A0EDB1B1605245F5 /* Nudity.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = Nudity.mlmodel; path = NsfwImgDetector/Classes/Nudity.mlmodel; sourceTree = "<group>"; };
+		4F5670FBA3FC8732E56CB7E2A0428DBF /* NsfwImgDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NsfwImgDetector.release.xcconfig; sourceTree = "<group>"; };
 		5596AC34B4862439F6D02927DBC4D3F8 /* Pods_NsfwImgDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NsfwImgDetector_Example.framework; path = "Pods-NsfwImgDetector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B379B513542DB8C60C282377498A3B /* Pods_NsfwImgDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NsfwImgDetector_Tests.framework; path = "Pods-NsfwImgDetector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653FAC7D23B919591F16B250BDFF79BD /* Pods-NsfwImgDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NsfwImgDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73459F91AAF3F6E68D8BC333FC5B697E /* NsfwImgDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NsfwImgDetector-prefix.pch"; sourceTree = "<group>"; };
 		740985BFA000459AFAA8FDD9EF092B02 /* Pods-NsfwImgDetector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NsfwImgDetector_Example-dummy.m"; sourceTree = "<group>"; };
 		8056E71DCE61CF24BBDD3FF2A3903F91 /* Pods-NsfwImgDetector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NsfwImgDetector_Tests-dummy.m"; sourceTree = "<group>"; };
-		8303E2381CBF2A6D7201092495D6E587 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NsfwImgDetector/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		927A5FA6439DA4DBE5EBF5DAF1C2726E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A381E8F60CB00A0E808D6F63B682900A /* NsfwImgDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NsfwImgDetector.debug.xcconfig; sourceTree = "<group>"; };
 		A690EE19E10D55CBB6F6585567742382 /* NsfwImgDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NsfwImgDetector.framework; path = NsfwImgDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CFB48DA09DA55EDE3237F5238666CF /* Pods-NsfwImgDetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NsfwImgDetector_Tests.modulemap"; sourceTree = "<group>"; };
 		B158C4E2098812B68A940B743BDAC689 /* Pods-NsfwImgDetector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NsfwImgDetector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9FA783B2C3363E54D7C2CCE5476355F /* NsfwImgDetector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NsfwImgDetector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB28CBF2C1D42C9927B9F7B12353227A /* Pods-NsfwImgDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NsfwImgDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BE0953DCCE610A8E68391904646E3A92 /* NsfwImgDetector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NsfwImgDetector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBCB0EA752A837ED39B736F5A6500ED2 /* NsfwImgDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NsfwImgDetector.modulemap; sourceTree = "<group>"; };
 		C2C1423FA4AA805E1326E987F17D46CB /* Pods-NsfwImgDetector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NsfwImgDetector_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C9DCF3E3CD51E2112D383EFE1056A446 /* NsfwImgDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NsfwImgDetector.modulemap; sourceTree = "<group>"; };
-		CA725A373A765FFCE6D1F456722F3574 /* NsfwImgDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NsfwImgDetector.xcconfig; sourceTree = "<group>"; };
+		CC2739652DD999481EEFEB8FC858E41E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CEE1C065C093C63C532D26517B3AE0CF /* Pods-NsfwImgDetector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NsfwImgDetector_Tests-Info.plist"; sourceTree = "<group>"; };
-		D0A84B4A684147329C7FE101E4B7E9EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D3B3838DFD2D9FB47075DEA8E278E139 /* Pods-NsfwImgDetector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NsfwImgDetector_Example-umbrella.h"; sourceTree = "<group>"; };
-		D76B57903E8BE4A57841BABF306FB897 /* NsfwImgDetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NsfwImgDetector-Info.plist"; sourceTree = "<group>"; };
+		D5F571FD9E391FAA69D9287C0730E0E2 /* NsfwImgDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NsfwImgDetector-dummy.m"; sourceTree = "<group>"; };
+		D950EDC8F313CE835697B6742449AAE8 /* NsfwImgDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NsfwImgDetector.swift; path = NsfwImgDetector/Classes/NsfwImgDetector.swift; sourceTree = "<group>"; };
 		DA4D0BED94C0EE4D4A5AB310BE5CDE5B /* Pods-NsfwImgDetector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NsfwImgDetector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE9044570AC66BB845CC23819AE35F09 /* Pods-NsfwImgDetector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NsfwImgDetector_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E1FA8BB796BB19F2ABA4FE04180FD2B3 /* Pods-NsfwImgDetector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NsfwImgDetector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0B6FB30317E3EAED9BBE88AAA04FD94 /* NsfwImgDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NsfwImgDetector-umbrella.h"; sourceTree = "<group>"; };
-		F309E6B132420EFDF81CF405F9C553B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FA867DFF0D60D4D67E439B7B240B2467 /* NsfwImgDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NsfwImgDetector-prefix.pch"; sourceTree = "<group>"; };
 		FE592D52626ABBC43DC2D9E14A8B9583 /* Pods-NsfwImgDetector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NsfwImgDetector_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9355C173C54ECB971E5EE804D64B10CE /* Frameworks */ = {
+		748745EF0318B7E48B22628C6635912D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95573245A86174EFAA34F2B1F39EE2C8 /* Foundation.framework in Frameworks */,
+				9F35925C09A8AC11CDF30A81A1611FCC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC90708161A94B3549AEB3C6C453043F /* Frameworks */ = {
+		930D582645A3272C95C9854E2E6332C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C65FC70BDC84FC0DEE690855B1DF964 /* Foundation.framework in Frameworks */,
+				B3D4E0D6AD222E9F9BBA9ADC72D97B4B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF87CEC2D821E4010C8931F5894932E1 /* Frameworks */ = {
+		DA600E21C9FEFA7F94E4A376D0BBF958 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77139A77A719C5F1A0650E15D80A5215 /* Foundation.framework in Frameworks */,
+				B0D775CD1B147D081740BB199FFF30E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04637EED02FA275D9A05197E962BDC4B /* Support Files */ = {
+		38E9FAA3CE592C7CFF32249C07CA939B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C9DCF3E3CD51E2112D383EFE1056A446 /* NsfwImgDetector.modulemap */,
-				CA725A373A765FFCE6D1F456722F3574 /* NsfwImgDetector.xcconfig */,
-				555E14C2435D33F24D1878AD2CB7361D /* NsfwImgDetector-dummy.m */,
-				D76B57903E8BE4A57841BABF306FB897 /* NsfwImgDetector-Info.plist */,
-				FA867DFF0D60D4D67E439B7B240B2467 /* NsfwImgDetector-prefix.pch */,
-				F0B6FB30317E3EAED9BBE88AAA04FD94 /* NsfwImgDetector-umbrella.h */,
+				CC2739652DD999481EEFEB8FC858E41E /* LICENSE */,
+				B9FA783B2C3363E54D7C2CCE5476355F /* NsfwImgDetector.podspec */,
+				927A5FA6439DA4DBE5EBF5DAF1C2726E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		614CFAEDC06A3322C2AAEB2FB0C60871 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB0EA752A837ED39B736F5A6500ED2 /* NsfwImgDetector.modulemap */,
+				D5F571FD9E391FAA69D9287C0730E0E2 /* NsfwImgDetector-dummy.m */,
+				3AB81D917A3EAEA7B48E653BD3A16A8E /* NsfwImgDetector-Info.plist */,
+				73459F91AAF3F6E68D8BC333FC5B697E /* NsfwImgDetector-prefix.pch */,
+				29FBBF06E509A88728D9D96E60CFC734 /* NsfwImgDetector-umbrella.h */,
+				A381E8F60CB00A0E808D6F63B682900A /* NsfwImgDetector.debug.xcconfig */,
+				4F5670FBA3FC8732E56CB7E2A0428DBF /* NsfwImgDetector.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NsfwImgDetector";
-			sourceTree = "<group>";
-		};
-		3C19D8ADF54A6CEB63095C89C3A16FDE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BAC1C6062A2EA4D7A22E3707C71F8BCA /* NsfwImgDetector */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		93CEE7C8D16DF1D3C2F47FBBF8623500 /* Targets Support Files */ = {
@@ -130,25 +136,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BAC1C6062A2EA4D7A22E3707C71F8BCA /* NsfwImgDetector */ = {
+		A229D4E4131F65BF66724B3DA901789C /* NsfwImgDetector */ = {
 			isa = PBXGroup;
 			children = (
-				8303E2381CBF2A6D7201092495D6E587 /* ReplaceMe.swift */,
-				BC58BFCB71A31BC3D334D9E56A1B49BD /* Pod */,
-				04637EED02FA275D9A05197E962BDC4B /* Support Files */,
+				D950EDC8F313CE835697B6742449AAE8 /* NsfwImgDetector.swift */,
+				46A652F0A2353912A0EDB1B1605245F5 /* Nudity.mlmodel */,
+				38E9FAA3CE592C7CFF32249C07CA939B /* Pod */,
+				614CFAEDC06A3322C2AAEB2FB0C60871 /* Support Files */,
 			);
 			name = NsfwImgDetector;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC58BFCB71A31BC3D334D9E56A1B49BD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D0A84B4A684147329C7FE101E4B7E9EF /* LICENSE */,
-				BE0953DCCE610A8E68391904646E3A92 /* NsfwImgDetector.podspec */,
-				F309E6B132420EFDF81CF405F9C553B1 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -173,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3C19D8ADF54A6CEB63095C89C3A16FDE /* Development Pods */,
+				E1BBD8420150F928BA22B1C176868600 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C3C768276B0ACBBDC5C955A19C8192DE /* Products */,
 				93CEE7C8D16DF1D3C2F47FBBF8623500 /* Targets Support Files */,
@@ -221,30 +218,38 @@
 			path = "Target Support Files/Pods-NsfwImgDetector_Tests";
 			sourceTree = "<group>";
 		};
+		E1BBD8420150F928BA22B1C176868600 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A229D4E4131F65BF66724B3DA901789C /* NsfwImgDetector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		972D4CD69333DA0B39B93C2ADC5A1DAD /* Headers */ = {
+		CB86E4443F05C976A7A2D444ABC5263A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48162B22CE532B843D948BBF8DA0EA2D /* Pods-NsfwImgDetector_Example-umbrella.h in Headers */,
+				8B5A678AF07C2F3E04479360A6CFA2A5 /* NsfwImgDetector-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB0AFB2DAB26E670765D485D679D7EB1 /* Headers */ = {
+		DA879416A7F1D86B56A40CE667B36663 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CA55D18B2D0E121FA232C367ED12FF /* NsfwImgDetector-umbrella.h in Headers */,
+				E50F8ADF57E58951E96CD777CF7000E6 /* Pods-NsfwImgDetector_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D2BAE3A670CD60CD0A0A92AD693319 /* Headers */ = {
+		E7F6D5142B60BCFFB69DCD552AA1F78D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1408AA3864AC0AE3F680A41CCCAC8E /* Pods-NsfwImgDetector_Tests-umbrella.h in Headers */,
+				3A25D70597DFCD788F2C076B81B77DAA /* Pods-NsfwImgDetector_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,17 +258,17 @@
 /* Begin PBXNativeTarget section */
 		007EDD5A251D172B429BB309E8217A2D /* Pods-NsfwImgDetector_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C48054DB8FF5C446810582F7D73D872 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Tests" */;
+			buildConfigurationList = 6B088305C525D748D87F1A52F6E0DAF9 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Tests" */;
 			buildPhases = (
-				F3D2BAE3A670CD60CD0A0A92AD693319 /* Headers */,
-				433B606563DA319CA78909FF3835ACD8 /* Sources */,
-				CF87CEC2D821E4010C8931F5894932E1 /* Frameworks */,
-				D1EB4B2518F2C9A5D0F4AB27886A7A7C /* Resources */,
+				E7F6D5142B60BCFFB69DCD552AA1F78D /* Headers */,
+				80077F20DACE5BD62286573B53EBB72C /* Sources */,
+				DA600E21C9FEFA7F94E4A376D0BBF958 /* Frameworks */,
+				F7B569519E7F8C0BA5D3EC69E98F4B86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				44F894416727D61B8848217697F4075D /* PBXTargetDependency */,
+				26281D45B78660E5DB0F904F50842E9B /* PBXTargetDependency */,
 			);
 			name = "Pods-NsfwImgDetector_Tests";
 			productName = "Pods-NsfwImgDetector_Tests";
@@ -272,12 +277,12 @@
 		};
 		37C234209165F2D03F27C5252B948FBC /* NsfwImgDetector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF66E70031DEB3294F23F366755A04EA /* Build configuration list for PBXNativeTarget "NsfwImgDetector" */;
+			buildConfigurationList = 9DE88CEDA02F6AD5F7F64D1550F8617C /* Build configuration list for PBXNativeTarget "NsfwImgDetector" */;
 			buildPhases = (
-				EB0AFB2DAB26E670765D485D679D7EB1 /* Headers */,
-				20AF0B0A1B9DAA515ED5B2A376DF2989 /* Sources */,
-				AC90708161A94B3549AEB3C6C453043F /* Frameworks */,
-				77E13244A5057019857B60F1B1D7BE0B /* Resources */,
+				CB86E4443F05C976A7A2D444ABC5263A /* Headers */,
+				CC7D6A38B4BDAB2AD885C6612A234B7E /* Sources */,
+				748745EF0318B7E48B22628C6635912D /* Frameworks */,
+				55B4D6FD367A4376B3D9D1A6564F6F03 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,17 +295,17 @@
 		};
 		C9BA8FD48CC566A1C6D4CB6F66F83F27 /* Pods-NsfwImgDetector_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE275984B25065E6549AFF994C2B202D /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Example" */;
+			buildConfigurationList = AC14C85F26A8E8078AFE958EB75ADBC0 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Example" */;
 			buildPhases = (
-				972D4CD69333DA0B39B93C2ADC5A1DAD /* Headers */,
-				F4947B3996D2BEF416D4AB9602FBC7B6 /* Sources */,
-				9355C173C54ECB971E5EE804D64B10CE /* Frameworks */,
-				79EEE062078E7EDE9D86505DFAA0516F /* Resources */,
+				DA879416A7F1D86B56A40CE667B36663 /* Headers */,
+				11CDBD64D9F2F6F34B80F002275E1DC6 /* Sources */,
+				930D582645A3272C95C9854E2E6332C0 /* Frameworks */,
+				AC8901AB03503584768F3505D859C4C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				693030154C3BBA1F7C50FC834F34C4CE /* PBXTargetDependency */,
+				F8020A4FA8FDC47A01D29181EB213BD3 /* PBXTargetDependency */,
 			);
 			name = "Pods-NsfwImgDetector_Example";
 			productName = "Pods-NsfwImgDetector_Example";
@@ -322,6 +327,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = C3C768276B0ACBBDC5C955A19C8192DE /* Products */;
@@ -336,21 +342,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77E13244A5057019857B60F1B1D7BE0B /* Resources */ = {
+		55B4D6FD367A4376B3D9D1A6564F6F03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79EEE062078E7EDE9D86505DFAA0516F /* Resources */ = {
+		AC8901AB03503584768F3505D859C4C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1EB4B2518F2C9A5D0F4AB27886A7A7C /* Resources */ = {
+		F7B569519E7F8C0BA5D3EC69E98F4B86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,181 +366,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20AF0B0A1B9DAA515ED5B2A376DF2989 /* Sources */ = {
+		11CDBD64D9F2F6F34B80F002275E1DC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E9E7B137BE4D5EE3BAC7D261873056 /* NsfwImgDetector-dummy.m in Sources */,
-				0F0B8A147365A332E01E68D41B48E733 /* ReplaceMe.swift in Sources */,
+				970ED652BE4F1DF74A6CA8B12919E96E /* Pods-NsfwImgDetector_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433B606563DA319CA78909FF3835ACD8 /* Sources */ = {
+		80077F20DACE5BD62286573B53EBB72C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8769278C827B8A00E0541A074BA94BDE /* Pods-NsfwImgDetector_Tests-dummy.m in Sources */,
+				246CC270D14E8B87FE0D9EF237A53DDD /* Pods-NsfwImgDetector_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4947B3996D2BEF416D4AB9602FBC7B6 /* Sources */ = {
+		CC7D6A38B4BDAB2AD885C6612A234B7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8670DF9E149AC1F29BD735D1B0B8BEA /* Pods-NsfwImgDetector_Example-dummy.m in Sources */,
+				1476A0EEB0FD1C1C034196CC1DBD82F5 /* NsfwImgDetector-dummy.m in Sources */,
+				CA1453E1628A0826BF5FBCDCA7C1AD2A /* NsfwImgDetector.swift in Sources */,
+				DA60145F38674D3A581135EDA6A38BF2 /* Nudity.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44F894416727D61B8848217697F4075D /* PBXTargetDependency */ = {
+		26281D45B78660E5DB0F904F50842E9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NsfwImgDetector_Example";
 			target = C9BA8FD48CC566A1C6D4CB6F66F83F27 /* Pods-NsfwImgDetector_Example */;
-			targetProxy = AA22F48C67E72CBAB0B4AA05FA2DE2CC /* PBXContainerItemProxy */;
+			targetProxy = C7582AB0015D02EBFAA39E30AE63A44E /* PBXContainerItemProxy */;
 		};
-		693030154C3BBA1F7C50FC834F34C4CE /* PBXTargetDependency */ = {
+		F8020A4FA8FDC47A01D29181EB213BD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NsfwImgDetector;
 			target = 37C234209165F2D03F27C5252B948FBC /* NsfwImgDetector */;
-			targetProxy = C4098084138475F8FDE1DEBFEF1A24CF /* PBXContainerItemProxy */;
+			targetProxy = B794E7445A397EC9E229DBC15CCBA73C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B55E8D466DF7D3EE6A83C2ABCA1BC91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44147DF0877757F0365C9CD48A277A40 /* Pods-NsfwImgDetector_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E8206E8E7A4C9560B7B90FE49FC7AF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA725A373A765FFCE6D1F456722F3574 /* NsfwImgDetector.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NsfwImgDetector/NsfwImgDetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector.modulemap";
-				PRODUCT_MODULE_NAME = NsfwImgDetector;
-				PRODUCT_NAME = NsfwImgDetector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8113F625A983C4B7D5B15D6D41BF3E4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653FAC7D23B919591F16B250BDFF79BD /* Pods-NsfwImgDetector_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		952B80843F8BE047AB3A44F77879ECA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42D8A16010A8477274CAE304F6908058 /* Pods-NsfwImgDetector_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -582,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,7 +470,214 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		50AD996EF63DA2A18E0762F223BFEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5670FBA3FC8732E56CB7E2A0428DBF /* NsfwImgDetector.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NsfwImgDetector/NsfwImgDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector.modulemap";
+				PRODUCT_MODULE_NAME = NsfwImgDetector;
+				PRODUCT_NAME = NsfwImgDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ADCBD3645D2EFBF3A1835A342648CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653FAC7D23B919591F16B250BDFF79BD /* Pods-NsfwImgDetector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71F8992742303EA5CF63861ACBCC72D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D8A16010A8477274CAE304F6908058 /* Pods-NsfwImgDetector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80638FE76B78259D2A0C0B4288077A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44147DF0877757F0365C9CD48A277A40 /* Pods-NsfwImgDetector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91432C7CF59442A9997A6ECA1A6D25D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB28CBF2C1D42C9927B9F7B12353227A /* Pods-NsfwImgDetector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2B1A953E295D65DB15DD3D2005EC4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A381E8F60CB00A0E808D6F63B682900A /* NsfwImgDetector.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NsfwImgDetector/NsfwImgDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector.modulemap";
+				PRODUCT_MODULE_NAME = NsfwImgDetector;
+				PRODUCT_NAME = NsfwImgDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -645,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -658,107 +741,41 @@
 			};
 			name = Debug;
 		};
-		E38B8329DE59047165AD23046FBB1017 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA725A373A765FFCE6D1F456722F3574 /* NsfwImgDetector.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NsfwImgDetector/NsfwImgDetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NsfwImgDetector/NsfwImgDetector.modulemap";
-				PRODUCT_MODULE_NAME = NsfwImgDetector;
-				PRODUCT_NAME = NsfwImgDetector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F25946EFF54DEA458DE76BFCED66676F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB28CBF2C1D42C9927B9F7B12353227A /* Pods-NsfwImgDetector_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C48054DB8FF5C446810582F7D73D872 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Tests" */ = {
+		6B088305C525D748D87F1A52F6E0DAF9 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8113F625A983C4B7D5B15D6D41BF3E4D /* Debug */,
-				952B80843F8BE047AB3A44F77879ECA4 /* Release */,
+				6ADCBD3645D2EFBF3A1835A342648CB7 /* Debug */,
+				71F8992742303EA5CF63861ACBCC72D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE275984B25065E6549AFF994C2B202D /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Example" */ = {
+		9DE88CEDA02F6AD5F7F64D1550F8617C /* Build configuration list for PBXNativeTarget "NsfwImgDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B55E8D466DF7D3EE6A83C2ABCA1BC91 /* Debug */,
-				F25946EFF54DEA458DE76BFCED66676F /* Release */,
+				B2B1A953E295D65DB15DD3D2005EC4E9 /* Debug */,
+				50AD996EF63DA2A18E0762F223BFEF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF66E70031DEB3294F23F366755A04EA /* Build configuration list for PBXNativeTarget "NsfwImgDetector" */ = {
+		AC14C85F26A8E8078AFE958EB75ADBC0 /* Build configuration list for PBXNativeTarget "Pods-NsfwImgDetector_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E8206E8E7A4C9560B7B90FE49FC7AF5 /* Debug */,
-				E38B8329DE59047165AD23046FBB1017 /* Release */,
+				80638FE76B78259D2A0C0B4288077A5B /* Debug */,
+				91432C7CF59442A9997A6ECA1A6D25D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

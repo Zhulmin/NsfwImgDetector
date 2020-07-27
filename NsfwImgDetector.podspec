@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NsfwImgDetector'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.swift_version    = '5.0'
   s.summary          = 'NSFW Content Detection of nudity with CoreML.'
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'NsfwImgDetector' => ['NsfwImgDetector/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

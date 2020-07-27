@@ -1,22 +1,25 @@
 {
   "name": "NsfwImgDetector",
   "version": "0.1.0",
-  "summary": "A short description of NsfwImgDetector.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Ra_Hulmin/NsfwImgDetector",
+  "swift_versions": "5.0",
+  "summary": "NSFW Content Detection of nudity with CoreML.",
+  "description": "Library for scanning images for NSFW (Not Safe For Work) content.",
+  "homepage": "https://github.com/Zhulmin/NsfwImgDetector",
   "license": {
-    "type": "MIT",
+    "type": "BSD",
     "file": "LICENSE"
   },
   "authors": {
-    "Ra_Hulmin": "zhulmin1458@gmail.com"
+    "zhulmin": "zhulmin1458@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Ra_Hulmin/NsfwImgDetector.git",
+    "git": "https://github.com/Zhulmin/NsfwImgDetector.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NsfwImgDetector/Classes/**/*"
+  "source_files": "NsfwImgDetector/Classes/**/*",
+  "public_header_files": "Pod/Classes/*.swift",
+  "swift_version": "5.0"
 }
