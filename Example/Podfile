@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NsfwImgDetector_Example' do
+  pod 'NsfwImgDetector', :path => '../'
+
+  target 'NsfwImgDetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
