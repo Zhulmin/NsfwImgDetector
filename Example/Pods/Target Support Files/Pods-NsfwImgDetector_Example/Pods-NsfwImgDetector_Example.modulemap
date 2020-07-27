@@ -1,0 +1,6 @@
+framework module Pods_NsfwImgDetector_Example {
+  umbrella header "Pods-NsfwImgDetector_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NsfwImgDetector (0.1.0)
+
+DEPENDENCIES:
+  - NsfwImgDetector (from `../`)
+
+EXTERNAL SOURCES:
+  NsfwImgDetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NsfwImgDetector: f19769e20c5f3fa156bf9e5798fa9f99a5fcb3ed
+
+PODFILE CHECKSUM: ade6d80c4b9d3253be66e8aa0dd617374ae75a0d
+
+COCOAPODS: 1.7.5

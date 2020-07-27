@@ -41,10 +41,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D670987F038020FB32789BC /* Pods-NsfwImgDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NsfwImgDetector_Example.debug.xcconfig"; path = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D83B76EC40841874AB5261E /* Pods-NsfwImgDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NsfwImgDetector_Example.release.xcconfig"; path = "Target Support Files/Pods-NsfwImgDetector_Example/Pods-NsfwImgDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91CFDE9D88911F03766F3C47 /* NsfwImgDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NsfwImgDetector.podspec; path = ../NsfwImgDetector.podspec; sourceTree = "<group>"; };
-		A3D9A5E905CD8B02274611D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		91CFDE9D88911F03766F3C47 /* NsfwImgDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NsfwImgDetector.podspec; path = ../NsfwImgDetector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3D9A5E905CD8B02274611D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A752FF2B63E38FD57E60827D /* Pods_NsfwImgDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NsfwImgDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2FAE50152C8128AE257FC84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2FAE50152C8128AE257FC84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB94A42DB3B5360086DEAA27 /* Pods-NsfwImgDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NsfwImgDetector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NsfwImgDetector_Tests/Pods-NsfwImgDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB71DDD9C4CACD45479B469E /* Pods_NsfwImgDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NsfwImgDetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				DB94A42DB3B5360086DEAA27 /* Pods-NsfwImgDetector_Tests.debug.xcconfig */,
 				33FEC668FBA0C22CF24FA3CB /* Pods-NsfwImgDetector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'NsfwImgDetector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NsfwImgDetector.'
+  s.swift_version    = '5.0'
+  s.summary          = 'NSFW Content Detection of nudity with CoreML.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Library for scanning images for NSFW (Not Safe For Work) content.
                        DESC
 
-  s.homepage         = 'https://github.com/Ra_Hulmin/NsfwImgDetector'
+  s.homepage         = 'https://github.com/Zhulmin/NsfwImgDetector'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ra_Hulmin' => 'zhulmin1458@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ra_Hulmin/NsfwImgDetector.git', :tag => s.version.to_s }
+  s.license          = { :type => 'BSD', :file => 'LICENSE' }
+  s.author           = { 'zhulmin' => 'zhulmin1458@gmail.com' }
+  s.source           = { :git => 'https://github.com/Zhulmin/NsfwImgDetector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -1,0 +1,6 @@
+framework module NsfwImgDetector {
+  umbrella header "NsfwImgDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}
