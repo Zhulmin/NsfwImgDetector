@@ -23,21 +23,17 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/Zhulmin/NsfwImgDetector'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+ 
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = { 'zhulmin' => 'zhulmin1458@gmail.com' }
   s.source           = { :git => 'https://github.com/Zhulmin/NsfwImgDetector.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NsfwImgDetector/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NsfwImgDetector' => ['NsfwImgDetector/Assets/*.png']
-  # }
 
-  s.public_header_files = 'Pod/Classes/*.swift'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  
 end
