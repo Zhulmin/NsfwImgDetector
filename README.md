@@ -6,7 +6,9 @@
 
 NsfwDetector CoreML Model to scan images for nudity. It was convert fome coffe model of  [yahoo model](https://github.com/yahoo/open_nsfw).
 
+#### 如果pod报错无法加载mlmodel, 直接拉取NsfwImgDetector文件夹到项目中即可使用 (仅包含swift和mlmodel两个文件)
 
+---
 
 ## Example
 
