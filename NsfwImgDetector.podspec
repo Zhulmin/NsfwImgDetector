@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NsfwImgDetector/Classes/*'
-  s.preserve_paths = 'NsfwImgDetector/Classes/*.mlmodel'
+  s.source_files = 'NsfwImgDetector/Classes/**/*'
 
 
   
